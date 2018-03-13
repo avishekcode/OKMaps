@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.at1go.Okmaps" version="01.00.00" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>OK Maps</name>
+    <description>Open KML Maps</description>
+    <author email="NOMAIL@MAIL.COM" href="http://at1go.com/">At1Go</author>
+    <preference name="HideKeyboardFormAccessoryBar" value="true" />
+    <preference name="StatusBarBackgroundColor" value="#1081E0" />
+    <gap:plugin name="com.phonegap.plugin.statusbar" />
+    <plugin name="cordova-plugin-googlemaps" spec="~2.2.6">
+        <variable name="API_KEY_FOR_ANDROID" value="****" />
+        <variable name="API_KEY_FOR_IOS" value="****" />
+        <variable name="LOCATION_WHEN_IN_USE_DESCRIPTION" value="This app wants to get your location while this app runs only." />
+        <variable name="LOCATION_ALWAYS_USAGE_DESCRIPTION" value="This app wants to get your location always, even this app runs in background." />
+    </plugin>
+    <engine name="ios" spec="latest" />
+</widget>
